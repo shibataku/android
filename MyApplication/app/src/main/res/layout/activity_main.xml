@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#afe"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_save1"
+        android:text="Save data"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:text="reset"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <TextView
+android:id="@+id/text_view"
+android:textSize="30sp"
+android:background="#aaffaa"
+android:textColor="#000000"
+android:layout_margin="20sp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#aaffaa"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#aaffaa"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</LinearLayout>
